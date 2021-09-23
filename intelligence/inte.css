@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+
+
+
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: rgb(32, 32, 77);
+    
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent ,dimgrey);
+    border-radius: 10px;
+    
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    min-width: 385px;
+}
+.hell{
+    background-color: rgb(26, 29, 65);
+    
+    width: 100%;
+    margin-top: -5px;
+    min-width: 355px;
+    
+}
+.jhon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;    
+    border-bottom: 1px solid rgb(56, 66, 83);
+}
+.well{
+    display: flex;
+    margin-top: 30px;
+}
+.don{
+    color: #fff;
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 10px black;
+    
+
+}
+.don:hover{
+    color: cornflowerblue;
+    transition: .3s;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.bean{
+    color: #fff;
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 60px;
+    margin-left: 30px;
+    text-shadow: 2px 2px 10px black;
+}
+.bean:hover{
+      color: rgb(221, 217, 203);
+
+}
+
+@media (max-width:470px){
+    .don{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+.folw{
+    display: flex;
+    width: 100%;
+}
+.soloman{
+    width:50%;
+}
+.earn{
+    width: 50%;
+}
+.lamp{
+    width: 80%;
+    height: 340px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    padding-bottom: 12%;
+}
+.lol{
+    margin-left: 15%;
+    margin-top: 100px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size:15px ;
+
+}
+.hammer{
+    margin-left:15% ;
+    margin-top: 40px;
+    color: #fff;
+    font-family:sans-serif ;
+    font-size: 60px;
+    font-weight: 500; 
+}
+.you{
+    margin-left: 15%;
+    margin-top: 50px;
+    display: flex;
+}
+.qont{
+    height: 50px;
+    width: 170px;
+    border: none;
+    background-color:rgb(75, 205, 245);
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+.qont:hover{
+    background-color: dodgerblue;
+    transform: scale(1.1);
+    transition: .5s;
+
+}
+.ico{
+    margin-left: 30px;
+    font-size: 50px;
+    color:rgb(75, 205, 245);
+    margin-top: -10;
+    cursor: pointer;
+}
+.ico:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    color: dodgerblue;
+
+}
+.intro{
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+@media (max-width:950px){
+    .folw{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .soloman{
+        width: 100%;
+    }
+    .lol{
+        margin-left:0 ;
+    }
+    .hammer{
+        margin-left: 0;
+    }
+    .you{
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .qont{
+        width: 130px;
+    }
+    .intro{
+        width: 140px;
+    }
+    .earn{
+        width: 100%;
+    }
+    .lamp{
+        width: 100%;
+        height: 0%;
+
+    
+    }
+
+}
+.king{
+    display: flex;
+    background-color: RGB(255,251,249);
+    font-family: sans-serif;
+    width: 100%;
+    padding-bottom: 120px;
+}
+.kling{
+    border-top: 2px  solid rgb(238, 232, 232);
+    display: flex;
+    background-color: RGB(255,251,249);
+    font-family: sans-serif;
+    width: 100%;
+
+}
+.kong{
+    width: 50%;
+    padding-top: 120px;
+  
+   
+}
+.woin{
+    padding-left: 9%;
+    color: rgb(47, 47, 68);
+    font-size: 50px;
+    font-weight: 500;
+
+}
+.haven{
+    margin-top: 40px;
+    font-size: 20px;
+    padding-left: 9%;
+    color: rgb(66, 66, 71);
+    width: 66%;
+    line-height: 35px;
+}
+
+.qiop{
+    width: 50%;
+    text-align: center;
+    padding-top:120px ;
+}
+.hum{
+  width: 90%;
+  height: 100%;
+  
+}
+@media (max-width:890px){
+    .king{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .kling{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .qiop{
+        width: 100%;
+        padding-top: 70px;
+
+    }
+    .kong{
+        width: 100%;
+        text-align: center;
+        margin-top: -100px;
+ 
+
+    }
+    .lamp{
+        padding-bottom: 2%;
+    }
+    .woin{
+        padding-left: 0%;
+    }
+    .haven{
+        width: 100%;
+        padding-left: 0%;
+        margin-top: 20px;
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.phli{
+    background-color: rgb(26, 29, 65);
+    text-align: center;
+    margin-top: 50px;
+
+}
+.odin{
+  padding-top: 170px;
+
+}
+.zeus{
+   color:  #fff;
+   font-family: sans-serif;
+   font-size: 50px;
+   font-weight: 600;
+  
+}
+.god{
+   margin-top:50px ;
+   height: 40px;
+   width: 29%;
+   border-radius: 5px;
+   border: none;
+   font-size: 16px;
+   padding-left: 10px;
+   outline: none;
+
+}
+.power{
+   margin-top: 20px;
+   width: 30%;
+   height: 40px;
+   border-radius: 5px;
+   border: none;
+   background-color: rgb(75, 205, 245);
+   font-weight: 700;
+   font-size: 17px;
+   color: #fff;
+   margin-bottom: 30px;
+   cursor: pointer;
+}
+.power:hover{
+   background-color: dodgerblue;
+}
+@media (max-width:535px){
+   .zeus{
+       font-size: 30px;
+   }
+   .god{
+       width: 70%;  
+   }
+   .power{
+       width: 70%;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.free{
+    background-color:rgb(26, 29, 65) ;
+    border-top: 1px solid rgb(41, 41, 100);
+    display: flex;
+    justify-content: space-between;
+}
+.hloi{
+     display: flex;
+     text-decoration:none;
+     list-style: none;
+     margin-top: 35px;
+     margin-left: -10%;
+}
+.anda{
+    color: #fff;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.bottam{
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.qin{
+    text-align: center;
+    background-color:rgb(26, 29, 65) ;
+    padding-top:20px;
+    color: dimgrey;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+@media (max-width:680px) {
+    .bean{
+        margin-left: 0;
+    }
+    .free{
+        display: flex;
+        flex-direction: column;
+    }
+    .hloi{
+        display: inline;
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+    .anda{
+        margin-top: 25px;
+    }
+    .bottam{
+        margin-left: 0px;
+        margin-right: 0;
+    }
+}
+@media (max-width:430px){
+    .bean{
+        margin-left: 0;
+    }
+}

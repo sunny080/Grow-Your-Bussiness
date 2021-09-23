@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.hell{
+    background-color: rgb(26, 29, 65);
+    
+    width: 100%;
+    margin-top: -5px;
+    min-width: 355px;
+    
+}
+.jhon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;    
+    border-bottom: 1px solid rgb(56, 66, 83);
+}
+.well{
+    display: flex;
+    margin-top: 30px;
+}
+.don{
+    color: #fff;
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 10px black;
+    
+
+}
+.don:hover{
+    color: cornflowerblue;
+    transition: .3s;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.bean{
+    color: #fff;
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 60px;
+    margin-left: 30px;
+    text-shadow: 2px 2px 10px black;
+}
+.bean:hover{
+      color: rgb(221, 217, 203);
+
+}
+.holl{
+    margin-top: 80px;
+    width: 50%;
+    margin-left:5%;
+    
+}
+.folw{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+}
+.full{
+    color:#fff ;
+    font-size:65px ;
+    font-family: sans-serif;
+}
+.lim{
+    margin-top: 40px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 25px;
+   
+    line-height: 40px;   
+}
+.earn{
+    width: 50%;
+}
+.long{
+    height: 400px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 70px;
+    width: 70%;
+    margin-left:15%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.loser{
+    font-family: sans-serif;
+    font-size: 23px;
+    color: rgb(29, 28, 28);
+    font-weight: 500;
+    padding-top: 35px;
+}
+.leser{
+    padding-top: 15px;
+    font-family: sans-serif;
+    color: dimgrey;
+}
+.slot{
+    margin-top: 20px;
+}
+.phone{
+    margin-top: 10px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(201, 195, 195);
+    font-size: 15px;
+}
+.phone:focus{
+    border: 2px solid dimgrey;
+    transition: .5s;
+}
+.wong{
+    margin-top: 20px;
+    width: 75%;
+    height: 40px;
+    border: none;
+    background-color: rgb(75, 205, 245);
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.wong:hover{
+    background-color: dodgerblue;
+    transition: .3s;
+}
+.lol{
+    text-align: center;
+}
+.bhaj{
+ 
+    margin-top: 5%;
+    
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+.losting{
+    min-width: 355px;
+}
+
+@media (max-width:930px){
+    .lim{
+        font-size: 16px;
+    }
+    .full{
+        font-size: 40px;
+    }
+ 
+}
+@media (max-width:600px){
+    .folw{
+        display:flex ;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .long{
+        height: 400px;
+        width: 500px;
+        margin-left: 0%;
+
+    }
+    .earn{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .holl{
+        text-align: center;
+        margin-left: 0%;
+        width: 100%;
+
+    }
+    .soloman{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:470px){
+    .don{
+        font-size: 15px;
+    }
+    .bean{
+        margin-left: 0;
+    }
+    .long{
+        width: 300px;
+    }
+    .lim{
+        font-size: 13px;
+    }
+    .full{
+        font-size:30px ;
+    }
+}
+.bhen{
+ width: 50%;
+ margin-left: 7%;
+}
+.losting{
+    display: flex;
+    justify-content:center;
+    
+
+    background-color: rgb(245, 243, 243);
+}
+.tabs{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.bheel{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.caps{
+    color: dimgrey;
+    font-family: sans-serif;
+    font-weight:700 ;
+    font-size: 15px;
+    margin-top: 90px;
+}
+.locks{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: rgb(51, 49, 49);
+    font-family: sans-serif;
+}
+.enter{
+    width: 75%;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(51, 49, 49);
+}
+.shift{
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(26, 29, 65);
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: sans-serif;  
+    cursor: pointer;  
+    margin-bottom: 20px;
+}
+.shift:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+@media (max-width:900px){
+    .losting{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .tabs{
+        width: 100%;
+    }
+    .bhen{
+        width: 100%;
+    }
+    .bheel{
+       width: 100%;
+       text-align: center;
+        margin-left: 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+    }
+     .enter{
+         text-align: center;
+         margin-left: 13%;
+
+     }
+     .lamp{
+         text-align: center;
+     }
+}
+
+
+.manu{
+    display: flex;
+    background-color: rgb(26, 29, 65);
+
+}
+
+.pubg{
+    width: 50%;
+    margin-top: 180px;
+    margin-left:7%;
+}
+.spider{
+    color: rgb(189, 186, 229);
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+}
+.venom{
+    margin-top: 30px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.arjun{
+    margin-top: 30px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 25px;
+    width: 65%;
+}
+.chota{
+    margin-top: 30px;
+    height: 50px;
+    width: 130px;
+    color:rgb(26, 29, 65) ;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight:800;
+}
+.chota:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.anjli{
+    font-weight: 900;
+   
+}
+
+
+
+
+.uncle{
+     width: 50%;
+     margin-top: 100px;
+}
+.aunty{
+    width: 100%;
+    height: 650px;
+    margin-left: -10%;
+}
+@media (max-width:900px){
+    .manu{
+       display: flex;
+       flex-wrap:wrap-reverse;
+       justify-content: center;
+    }
+    .aunty{
+        margin-left: 0;
+    }
+    .uncle{
+        width: 100%;
+        margin-left: -5%;
+    }
+    .pubg{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .arjun{
+        text-align: center;
+        width: 100%;
+    }
+    .chota{
+        margin-bottom: 20px;
+    }
+}
+
+.break{
+    display: flex;
+    background-color: rgb(245, 243, 243);
+}
+.karan{
+    width: 50%;
+}
+.janu{
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 90%;
+    height: 500px;
+    margin-bottom:30px ;
+
+}
+
+
+
+
+.salman{
+    width: 50%;
+    margin-left: 5%;
+
+}
+.iron{
+    color: rgb(163, 159, 159);
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-size:15px ;
+    font-weight:700 ;
+}
+.amreca{
+    margin-top: 30px;
+    font-family: sans-serif;
+    color: rgb(58, 56, 56);
+    font-size:50px ;
+}
+.wonder{
+    margin-top: 30px;
+    color:rgb(92, 89, 89);
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+
+}
+.thor{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(26, 29, 65);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight:700 ;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.thor:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+@media (max-width:900px) {
+    .break{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .karan{
+        width: 100%;
+    }
+    .janu{
+        margin-left: 5.5%;
+    }
+    .salman{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: -40px;
+    }
+    .wonder{
+        margin-left: 0;
+        width:100%;
+    }
+    
+}
+.phli{
+     background-color: rgb(26, 29, 65);
+     text-align: center;
+
+}
+.odin{
+   padding-top: 170px;
+
+}
+.zeus{
+    color:  #fff;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+   
+}
+.god{
+    margin-top:50px ;
+    height: 40px;
+    width: 29%;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding-left: 10px;
+    outline: none;
+
+}
+.power{
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(75, 205, 245);
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.power:hover{
+    background-color: dodgerblue;
+}
+@media (max-width:535px){
+    .zeus{
+        font-size: 30px;
+    }
+    .god{
+        width: 70%;  
+    }
+    .power{
+        width: 70%;
+    }
+
+}
+.free{
+    background-color:rgb(26, 29, 65) ;
+    border-top: 1px solid rgb(41, 41, 100);
+    display: flex;
+    justify-content: space-between;
+}
+.hloi{
+     display: flex;
+     text-decoration:none;
+     list-style: none;
+     margin-top: 35px;
+     margin-left: -10%;
+}
+.anda{
+    color: #fff;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.bottam{
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.qin{
+    text-align: center;
+    background-color:rgb(26, 29, 65) ;
+    padding-top:20px;
+    color: dimgrey;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+@media (max-width:680px) {
+    .free{
+        display: flex;
+        flex-direction: column;
+    }
+    .hloi{
+        display: inline;
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+    .anda{
+        margin-top: 25px;
+    }
+    .bottam{
+        margin-left: 0px;
+        margin-right: 0;
+    }
+}
+
+
+
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: rgb(32, 32, 77);
+    
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent ,dimgrey);
+    border-radius: 10px;
+    
+}
